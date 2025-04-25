@@ -1,12 +1,41 @@
-# React + Vite
+Dashboard Readme
+📊 Dynamic Dashboard Application
+A dynamic, fully interactive Dashboard Builder using React, TailwindCSS, and Zustand for local store management.
+Users can add, remove, search, and manage widgets inside different categories dynamically!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+git clone <https://github.com/apurv212/dashboard.git>
+cd dynamic-dashboard
+Install Dependencies
 
-Currently, two official plugins are available:
+npm install
+Install Tailwind CSS (Already configured) Tailwind is already added, but if needed:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+Install Zustand
 
-## Expanding the ESLint configuration
+npm install zustand
+Run the Application
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm run dev
+Visit the App Open your browser and navigate to:
+
+💠 How the App Works
+Dynamic JSON:
+Categories and widgets are built based on a JSON (initialData.js).
+Each category has an array of widgets.
+Adding Widget:
+Click + Add Widget → Fill Widget Name and Widget Text → Confirm.
+Widget is added under the selected category.
+Removing Widget:
+Every widget has a ✖️ (Cross Button) on the top right → Click to remove.
+Searching Widgets:
+
+Use the search bar at the top → Type a few characters → Live filtering across all widgets.
+
+
+⚡ Quick Commands Cheat Sheet
+npm install tailwindcss postcss autoprefixer
+npm install zustand
+npm run dev
+✅ Done!
