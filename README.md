@@ -40,8 +40,4 @@ Searching
 Use the search bar at the top of the dashboard
 Results filter in real-time as you type
 
-⚡ Quick Commands Cheat Sheet
-npm install tailwindcss postcss autoprefixer
-npm install zustand
-npm run dev
-✅ Done!
+
