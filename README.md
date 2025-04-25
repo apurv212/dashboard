@@ -11,6 +11,7 @@ Install additional packages if needed
 
 # Tailwind CSS (already configured in the project)
 `npm install -D tailwindcss postcss autoprefixer`
+###
 `npx tailwindcss init -p`
 
 # Zustand for state management
