@@ -2,14 +2,14 @@ Dynamic Dashboard Application
 A dynamic, fully interactive Dashboard Builder using React, TailwindCSS, and Zustand for local store management.
 Users can add, remove, search, and manage widgets inside different categories dynamically!
 
-🔧 Installation
+# Installation
 
 git clone https://github.com/apurv212/dashboard.git
 
 
 Install additional packages if needed
 
-# Tailwind CSS (already configured in the project)
+# Tailwind CSS
 `npm install -D tailwindcss postcss autoprefixer`
 ###
 `npx tailwindcss init -p`
@@ -20,7 +20,7 @@ Install additional packages if needed
 Start the development server:
 `npm run dev`
 
-💠 How the App Works
+# How the App Works
 Dashboard Structure
 The application dynamically builds categories and widgets based on data in initialData.js.
 Adding Widgets
