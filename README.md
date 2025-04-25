@@ -10,14 +10,14 @@ git clone https://github.com/apurv212/dashboard.git
 Install additional packages if needed
 
 # Tailwind CSS (already configured in the project)
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+`npm install -D tailwindcss postcss autoprefixer`
+`npx tailwindcss init -p`
 
 # Zustand for state management
-npm install zustand
+`npm install zustand`
 💻 Usage
 Start the development server:
-npm run dev
+`npm run dev`
 
 💠 How the App Works
 Dashboard Structure
